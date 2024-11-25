@@ -211,6 +211,7 @@ p {
     td {
         background-color: var(--verde_claro);
         font-size: large;
+        padding: 10px;
     }
 
 }
@@ -236,6 +237,7 @@ p {
     td {
         background-color: var(--verde_claro);
         font-size: large;
+        padding: 10px;
     }
 
 }
@@ -251,7 +253,7 @@ p {
     th {
         background-color: var(--jade);
         color: var(--verde_claro);
-        padding: 8px;
+        padding: 5px;
         text-align: start;
         font-size: larger;
     }
@@ -259,6 +261,25 @@ p {
     td {
         background-color: var(--verde_claro);
         font-size: large;
+        padding: 10px;
+    }
+   
+
+}
+.bairros{
+    width: 100%;
+    th {
+        background-color: var(--verde_escuro);
+        color: var(--verde_claro);
+        padding: 5px;
+        text-align: center;
+        font-size: medium;
     }
 
+    td {
+        background-color: var(--verde_claro);
+        font-size: medium;
+        padding: 5px;
+        
+}
 }
