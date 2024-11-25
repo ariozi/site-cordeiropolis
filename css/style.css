@@ -239,3 +239,26 @@ p {
     }
 
 }
+.tabela_prefeitos {
+    border-bottom: 2px solid var(--cinza_claro);
+    border-collapse: separate;
+    width: 100%;
+
+    h2 {
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+
+    th {
+        background-color: var(--jade);
+        color: var(--verde_claro);
+        padding: 8px;
+        text-align: start;
+        font-size: larger;
+    }
+
+    td {
+        background-color: var(--verde_claro);
+        font-size: large;
+    }
+
+}
