@@ -350,4 +350,11 @@ p {
         width: 100%;
         }       
     }
+    .imformações_de_index{
+        padding: 10px;
+    }
+    .pontos-turisticos{
+        display: block;
+        width: 300%;
+    }
 }
