@@ -1,7 +1,4 @@
-git init    
-git checkout -b pedro
-git remote add origin https://github.com/luisribeiro1/uc15.git
-git push -u origin pedro
+
 
 
 

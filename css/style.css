@@ -283,3 +283,71 @@ p {
         
 }
 }
+@media screen and (max-width: 600px) {
+    nav,
+    article,
+    main,
+    footer {
+        width: 100%;
+      
+    
+    }
+    
+    nav {
+     display: block;             /*  tira o flex e voltar para block */
+      text-align: center;       /* Centralizar */
+     span{                         /*envia o texto para baixo*/
+        display: block;
+     }
+     img{
+        width:50% ;
+     }
+    
+    }
+    
+    article{
+        padding-left: 12px;
+        padding-right: 12px;
+       }
+    
+       .imagens {
+        display: block;
+        justify-content: space-between;
+    
+        img {
+            width: 100%;
+        }
+    }
+    footer {
+        padding: 0px 10px 10px 10px;
+    }
+    .imagem_destaque{
+        display: block;
+        .img{
+            width: 30%;
+        }
+        
+    }
+    .informações_de_index{
+        img{
+            width: 100%;
+        }
+    }
+    .imagem_esportes{
+       display: block;
+       img{
+        width: 100%;
+       }
+    }
+    section{
+        iframe{
+            height: 30vh;
+            width: 100%;
+        }
+    }
+    .imagem_população{
+        img{
+        width: 100%;
+        }       
+    }
+}
