@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Site de Cordeirópolis</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <img src="imagens/logo do site.webp" alt=" logo da cidade">
+            <span>
+                <a href="index.html"> Início.</a>
+                <a href="a-cidade.html"> A cidade.</a>
+                <a href="bairros.html"> Bairro.</a>
+                <a href="localizacao.html"> Localizações.</a>
+                <a href="pontos-turisticos.html"> Pontos Turísticos.</a>
+                <a href="distancias.html"> Distancias.</a>
+                <a href="esportes.html"> Esportes.</a>
+                <a href="populacao.html"> População.</a>
+                <a href="lista-de-prefeitos.html"> Lista de Prefeitos.</a>
+                <a href="formulario.html"> Formulario.</a>
+            </span>
+        </nav>
+    </header>
+
+    <section class="imagem_destaque">
+        <img src="imagens/CORDEIRÓPOLIS.png" alt=" imagem principal">
+    </section>
+
+    <main>
+        <div class="informações_de_formulario">
+            <div>
+                <h1> formulario de sugestao</h1>
+                <section class="formulario">
+                    <form  id="formulario" action="enviacontato.php" method="post">
+                        <div>
+                            <label for="">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div>
+                            <label for="">E-Mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="">Sexo:</label>
+                            <input type="radio" id="masculino" name="sexo" value="masc"> Masculino
+                            <input type="radio" id="feminino" name="sexo" value="fem"> Feminino
+                        </div>
+                        <div>
+                            <label for="">Idade:</label>
+                            <input type="text" id="idade" name="idade">
+                            </select>
+                        </div>
+                        <div class="sugestao">
+                            <label for="">Sugestao:</label>
+                            <textarea name="sugestao" id="sugestao" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" name="enviar" id="enviar" value="Enviar formulario">
+                        </div>
+        
+        
+        
+                        <br><br><br><br>
+                    </form>
+                </section>
+                
+            </div>
+
+
+    </main>
+
+
+    <footer>
+        <div>
+            &copy; 2024 | Site de Exemplo | Créditos
+        </div>
+        <div>
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="http://youtube.com" target="_blank"><i class="bi bi-youtube"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

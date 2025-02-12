@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/*CSS Reset - redefine padrões que são aplicados pelos navegadores*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+
+}
+
+:root {
+    --jade: #00A676;
+    --preto: #181F1C;
+    --verde_claro: #E7F59E;
+    --verde_escuro: #274029;
+    --laranja: #F7A072;
+    --branco: #fff;
+
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+nav,
+article,
+main,
+footer {
+    width: 1250px;
+    margin: 0px auto;
+
+}
+
+header {
+    background-color: var(--verde_claro);
+    color: var(--branco);
+    padding: 10px 0px;
+
+
+
+}
+
+nav {
+    display: flex;
+    /*muda  de bloco para flex*/
+    justify-content: space-between;
+    /* distribui horizontalmente os filhos*/
+    align-items: center;
+    /*alinha verticalmente */
+    img{
+        width: 100px;
+    }
+
+}
+
+nav a {
+    color: var(--verde_escuro);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: bold;
+
+
+}
+
+nav a:hover {
+
+    text-decoration: underline;
+    color: orange;
+
+}
+
+nav img {
+    border-radius: 8px;
+
+    margin-right: 70%px;
+
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+    i {
+        color: var(--verde_escuro);
+    }
+}
+
+.imagem_destaque img {
+    width: 100%;
+    height: 250px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin: 50px;
+    color: var(--cinza_escuro);
+    border-bottom: 2px solid var(--cinza_claro);
+}
+
+h2 {
+    font-size: 1.7rem;
+    color: var(--cinza_escuro);
+    margin: 40px 0px 15px 0px;
+}
+h3{
+    font-size: 1.0rem;
+    margin: 10px;
+    color: var(--cinza_escuro);
+    border-bottom: 2px solid var(--cinza_claro);
+}
+
+p {
+    line-height: 150%;
+    /* altura da  linha    */
+    margin-bottom: 10px;
+    /* espaçamento entre paragrafo*/
+
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: 32%;
+    }
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+}
+.pontos-turisticos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+
+    h2 {
+        border-bottom: var(--cinza_claro) solid 3px;
+    }
+
+    .card {
+        width: 32%;
+        margin-bottom: 30px;
+        text-align: center;
+
+        img {
+            width: 80%;
+            border-radius: 10px;
+            border: #E7F59E solid 3px;
+
+        }
+    }
+    .tabela_cidades {
+        border-bottom: 2px solid var(--cinza_claro);
+        border-collapse: separate;
+        width: 100%;
+    
+        h2 {
+            border-bottom: 2px solid var(--cinza_claro);
+        }
+    
+        th {
+            background-color: var(--jade);
+            color: var(--verde_claro);
+            padding: 8px;
+            text-align: start;
+            font-size: larger;
+        }
+    
+        td {
+            background-color: var(--laranja);
+            font-size: large;
+        }
+    
+    }
+
+}
+.tabela_cidades {
+    border-bottom: 2px solid var(--cinza_claro);
+    border-collapse: separate;
+    width: 100%;
+
+    h2 {
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+
+    th {
+        background-color: var(--jade);
+        color: var(--verde_claro);
+        padding: 8px;
+        text-align: start;
+        font-size: larger;
+    }
+
+    td {
+        background-color: var(--verde_claro);
+        font-size: large;
+        padding: 10px;
+    }
+
+}
+
+.tabela_municipios {
+
+    border-bottom: 2px solid var(--cinza_claro);
+    border-collapse: separate;
+    width: 100%;
+
+    h2 {
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+
+    th {
+        background-color: var(--jade);
+        color: var(--verde_claro);
+        padding: 8px;
+        text-align: start;
+        font-size: larger;
+    }
+
+    td {
+        background-color: var(--verde_claro);
+        font-size: large;
+        padding: 10px;
+    }
+
+}
+.tabela_prefeitos {
+    border-bottom: 2px solid var(--cinza_claro);
+    border-collapse: separate;
+    width: 100%;
+
+    h2 {
+        border-bottom: 2px solid var(--cinza_claro);
+    }
+
+    th {
+        background-color: var(--jade);
+        color: var(--verde_claro);
+        padding: 5px;
+        text-align: start;
+        font-size: larger;
+    }
+
+    td {
+        background-color: var(--verde_claro);
+        font-size: large;
+        padding: 10px;
+    }
+   
+
+}
+.bairros{
+    width: 100%;
+    th {
+        background-color: var(--verde_escuro);
+        color: var(--verde_claro);
+        padding: 5px;
+        text-align: center;
+        font-size: medium;
+    }
+
+    td {
+        background-color: var(--verde_claro);
+        font-size: medium;
+        padding: 5px;
+        
+}
+}
+@media screen and (max-width: 600px) {
+    nav,
+    article,
+    main,
+    footer {
+        width: 100%;
+      
+    
+    }
+    
+    nav {
+     display: block;             /*  tira o flex e voltar para block */
+      text-align: center;       /* Centralizar */
+     span{                         /*envia o texto para baixo*/
+        display: block;
+     }
+     img{
+        width:50% ;
+     }
+    
+    }
+    
+    article{
+        padding-left: 12px;
+        padding-right: 12px;
+       }
+    
+       .imagens {
+        display: block;
+        justify-content: space-between;
+    
+        img {
+            width: 100%;
+        }
+    }
+    footer {
+        padding: 0px 10px 10px 10px;
+    }
+    .imagem_destaque{
+        display: block;
+        .img{
+            width: 30%;
+        }
+        
+    }
+    .informações_de_index{
+        img{
+            width: 100%;
+        }
+    }
+    .imagem_esportes{
+       display: block;
+       img{
+        width: 100%;
+       }
+    }
+    section{
+        iframe{
+            height: 30vh;
+            width: 100%;
+        }
+    }
+    .imagem_população{
+        img{
+        width: 100%;
+        }       
+    }
+    .imformações_da_cidade{
+        padding: 20px;
+    }
+    .pontos-turisticos{
+        display: block;
+        width: 300%;
+    }
+}
